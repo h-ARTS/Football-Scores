@@ -1,0 +1,61 @@
+body {
+     background-color: #031316;
+     color: #ECECEC;
+     height: 100%;
+}
+
+.jumbotron {
+     border-radius: 0;
+     background: url("/img/stadium.jpg") center no-repeat no-repeat;
+     background-size: cover;
+     height: 280px;
+}
+
+.jumbotron .wrapper {
+     background-color: rgba(0,0,0,0.5);
+     width: 50%;
+}
+
+#app .inner {
+     background-color: #112233;
+}
+
+table {
+     display: inline-table !important;
+}
+
+table tbody tr:first-child {
+     font-weight: 600;
+     background-color: #1c3854;
+}
+
+footer>div {
+     background-color: #FC575E;
+     color: #112233;
+}
+
+@media only screen and (max-width: 768px) {
+     .jumbotron .wrapper {
+          width: 100%;
+     }
+     table {
+          display: block !important;
+     }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+     .jumbotron {
+          width: 100%;
+     }
+     .jumbotron .wrapper {
+          margin-top: 3rem !important;
+          width: 100%;
+     }
+     .jumbotron .wrapper h1 {
+          font-size: 2.3rem;
+          text-align: center;
+     }
+     .jumbotron .wrapper p.lead {
+          text-align: center;
+     }
+}
