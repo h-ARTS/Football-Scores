@@ -34,7 +34,7 @@ footer>div {
      color: #112233;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
      .jumbotron .wrapper {
           width: 100%;
      }
